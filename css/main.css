@@ -1,43 +1,135 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+html {
+    margin: auto;
+    display: table;
+
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+
 a {
     text-decoration: none;
-    color: #999;
+    color: inherit;
 }
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
+
+body {
+    margin: 0px auto;
+    display: table-cell;
+    vertical-align: middle;
+    width: 800px;
+    color: #2A363B;
+    background-color: #F2F3F5
+}
+
+/*.bg1 {
+    background: linear-gradient(#424242, #E9E9E9);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+
+.bg2 {
+    background: radial-gradient(#9BD7F7,#FF9900);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+*/
+/*nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
+    padding: 0px;
     list-style: none;
+    font-weight: bold;
+    background-color: #C42B2B;
+
+}*/
+/*nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+*/
+
+.contact {
+    width: 800px;
+    font-family: 'Text Me One', sans-serif;
+    padding: 2px 20px 20px 20px;
+    color: #282828;
+    background-color: #F2F3F5;
+    margin-top: 50px;
+    margin-bottom: 20px;
+/*    border-bottom-width: 5px;
+    border-bottom-style: double;
+*/   
+}
+
+#name {
+    font-size: 40px;
+    /*background-color: #282828;*/
+    color: #282828;
+    width: 250px;
+    padding: 5px 5px 0 5px;
+
+    display: inline-block;
+}
+#about {
+    list-style: none;
+    /*margin-bottom: -10px;*/
+    padding-left: 0;
+    margin: 5px 5px 0 5px;
+    font-size: 15px ;
+    display: inline-block;
+
+}
+#info {
+    list-style: none;
+/*    border-style: solid;
+    border-width: 1px;
+*/    padding: 5px;
+    font-size: 22px;
+
+}
+
+
+
+hr {
+    border-top: 1px solid #2A363B;
+    border-color: #2A363B;
+}
+
+.projects, .courses {
+    /*background-color: #161A0D;
+    /*width: 90%;*/
+    background-color: #F2F3F5;
+    /*background-color: #99B2B7;*/
+    font-family: 'Inconsolata', monospace;
+    /*padding: 20px;*/
+    color: #00A0B0;
+    /*border-bottom: 1px solid #00A0B0;*/
+    width: 800px;
+}
+
+#projects_name {
+
+}
+
+.project {
+    display: inline-block;
+    width: 370px;
+    margin: 12px;
+    padding-bottom: 40px;
+    color: #2A363B;
+
+}
+#pic {
+    background: url(../img/puppy.jpg);
+    background-position: -200px -50px;
+    width: 370px;
+    height: 100px;
+}
+
+.myDiv{
+   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPUlEQVQoU2M8Y2z/3+TsQUYGAgCsgBjFcJMIKUaxEp9iDLfhUozVE9gU4/QtumK8wYKsmGD4wRQTVAgLZwDQFCZIFEYNgwAAAABJRU5ErkJggg==) repeat;
+   width: 600px;
 }
